@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Slab', serif;
+
+}
+body{  
+    height: 100vh;
+    width:100vw;
+    text-decoration: none;
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    justify-content: space-between;
+    flex-direction: row;
+    
+    /* padding: 10px 8%; */
+}
+nav{
+    text-decoration: none;
+    height: 50px;
+    width: 100%;
+    background:rgba(0,0,0,0.8);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    
+}
+.logo{
+    width: 25%;
+    text-align: center;  
+}
+.ul{
+    color: aliceblue;
+    text-decoration: none;
+    display: flex;
+    text-align:center;
+    justify-content:space-between;
+    margin-right: 50px;
+    gap: 60px;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-weight: 700;
+    align-items: center;
+    cursor:cell;
+    
+   
+}
+
+   
+ul li a{ 
+    text-decoration: none;
+    width: 25%;
+    font-weight:bold;
+    color: aliceblue;
+}
+
+
+main{
+    /* height: 85vh;
+    width: 106%; */
+    text-decoration: none;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+section h3{
+    font-size:35px;
+    font-weight: 200;
+    letter-spacing:3px;
+    text-shadow: 1px 1px 2px black;
+}
+section h1{
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+}
+section p{
+    font-size: 25px;
+    color:white;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+}
+section a{ 
+    color: azure;
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all .5s ease;
+}
+section .btn{
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 15px;
+}
+section .btn:hover{
+    background-color:whitesmoke;
+    color: blue;
+}
+section .raj{
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 15px;
+    margin-left: 10px;
+    border: 1px solid red;
+}
+section .raj:hover{
+    background-color:whitesmoke;
+    color: blue;
+}
